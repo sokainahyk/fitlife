@@ -1,0 +1,19 @@
+
+.container{
+    border: solid 2px rgb(98, 184, 224);
+    border-radius: 10px;
+    background-color: rgb(98, 184, 224);
+    
+
+}
+.form-check-label{
+   font-size: large; 
+   margin-left: 5%;
+}
+.form-check-input{
+    width: 3vh;
+    height: 3vh;
+    margin-top: 2%;
+    
+   
+}

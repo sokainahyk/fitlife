@@ -1,0 +1,41 @@
+body {
+    background-image: url('images/wallpaper.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 100vh;
+    background-color: #f0f0f0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-star;
+}
+
+.button-container {
+    padding-top: 15vh;
+    display: flex; 
+    justify-content: space-around;
+  
+}
+
+.button {
+    text-align: center;
+}
+
+.button img {
+    width: 250px; 
+    height: 250px; 
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensure images don't exceed their container */
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.button p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button img:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+   padding-top: 10%;
+    display: block ;
+    
+}
+
+#ls {
+    margin-right: 10px; 
+    display: block ;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+#is {
+    width: 200px; 
+    height: 30px;
+    margin-right: 10px;
+    background-color: rgba(255, 183, 236, 0.692);
+   font: rgb(45, 133, 23);
+    border: none;
+    border-radius: 5px;
+}
+
+#bs {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255,183,236);
+    border:none ;
+    border-radius: 5px;
+}
+
+ table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(84, 200, 255);
+}
+
+h2 {
+    margin-top: 20px;
+    padding-top: 2%;
+    text-align: center;
+    color: rgb(45, 133, 23);
+}
+/*
+#newV {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 600px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#newV label,
+#newV input {
+    margin-bottom: 10px;
+}
+
+#newV input {
+    height: 30px;
+    width: calc(100% - 10px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#newV input[type="date"] {
+    width: calc(100% - 10px);
+}
+
+#newV input[type="submit"] {
+    width: 100%;
+    background-color: rgb(255, 183, 236);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}*/
+
+/*#searchInput{
+    height: 25px;
+}
+*/
